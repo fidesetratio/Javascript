@@ -78,5 +78,25 @@ app.listen(3000,function(){
 =======================================================================================
 <link rel="stylesheet" href="static/css/style.css"/>
 
+
+const express = require("express");
+const router = express.Router();
+
+
+
+router.use("/view",(req,res)=>{
+    
+    res.send("About view");
+
+
+})
+
+module.exports = router;
+
+
+app.use(view);
+
+
+
 `````
 
