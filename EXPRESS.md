@@ -10,6 +10,10 @@ npm init
 npm install nodemon
 npm install express
 npm install ejs
+npm install cors
+npm install bcyrpt
+npm install jsonwebtoken
+
 
 mkdir static
 mkdir static/admin
